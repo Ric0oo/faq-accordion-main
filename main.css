@@ -41,7 +41,7 @@ body {
 .container .header h1 {
   font-weight: 800;
 }
-.container .FAQ-question {
+.container .question {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,13 +50,10 @@ body {
   color: var(--Dark-purple);
   font-size: 1rem;
 }
-.container .FAQ-question img {
+.container .question img {
   cursor: pointer;
 }
-.icon-minus {
-  display: none;
-}
-.FAQ-answer {
+.hided {
   display: none;
 }
 .container hr {
